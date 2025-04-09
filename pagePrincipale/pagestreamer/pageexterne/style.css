@@ -1,0 +1,105 @@
+@import url('https://font.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+    background: url('nekiiiii.jpg') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container
+{
+    text-align: center;
+}
+.avatar
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 20px;
+}
+p
+{
+    font-family: 'Poppins' sans-serif;
+    color: white;
+}
+.btn
+{
+    display: block;
+    width: 300px;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: transform 0.2s ease;
+}
+.btn:hover
+{
+    transform: scale(1.05);
+}
+.instagram
+{
+    background: linear-gradient(90deg, #8241d0, #ffa600);
+}
+.twitch
+{
+    background: linear-gradient(90deg, #9933ff, #6600ff);
+}
+.x
+{
+    background: linear-gradient(90deg, #030303, #fcfbf9);
+}
+.youtube
+{
+    background: linear-gradient(90deg, #ff0000, #ffffff);
+}
+li
+{
+    font-family: 'Poppins' sans-serif;
+    color: white;
+    img
+    {
+        width: 40%;
+        height: 30vh;
+        /* Fonctionne comme background-size mais adapté à une balise image */
+        object-fit: cover;
+        /* fonctionne comme background-position mais adapté aux balises image */
+        object-position: center;
+    }
+}
+.instagram img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.twitch img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.x img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.youtube img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
