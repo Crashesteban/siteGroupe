@@ -60,6 +60,7 @@ h1, h2
 }
 p {
     line-height: 1.6;
+    text-align: center;
     margin-bottom: 15px;
     color:#f90691;
 }
@@ -86,71 +87,301 @@ label
     margin-top: 0;
     margin-bottom: 15px;
 }
-.roles 
+.card
 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-.role-card 
-{
-    background-color: #D8BFDE;
+    background-color: #887cd2;
     padding: 15px;
+    margin: 10px;
     border-radius: 5px;
     border: 1px solid #D8BFDE;
+    width: 40%;
 }
-.role-card h3 
-{
+.annonce {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.annonce h2 {
+    color: #e44d26; /* Couleur principale de votre groupe */
     margin-top: 0;
-    color: #f90691;
 }
-.apply-button 
-{
-    display: block;
-    width: 200px;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #007bff;
+
+.annonce p {
+    line-height: 1.6;
+}
+
+.date {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #e44d26; /* Couleur principale de votre groupe */
     color: white;
-    text-align: center;
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    margin-top: 15px;
 }
-.apply-button:hover {
-    background-color: #0056b3;
+
+.cta-button:hover {
+    background-color: #c83d1a;
 }
-.contact-info {
-    text-align: center;
-    margin-top: 30px;
-    color: #f90691;
+.annonce {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-/* Formulaire (vous devrez peut-être l'intégrer via un service tiers) */
-.application-form label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+
+.annonce h2 {
+    color: #e44d26; /* Couleur principale de votre groupe */
+    margin-top: 0;
 }
-.application-form input[type="text"],
-.application-form input[type="email"],
-.application-form textarea {
-    width: calc(100% - 12px);
-    padding: 8px;
+
+.annonce p {
+    line-height: 1.6;
+}
+
+.date {
+    color: #777;
+    font-size: 0.9em;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
 }
-.application-form button[type="submit"] {
-    background-color: #28a745;
+
+.cta-button {
+    display: inline-block;
+    background-color: #e44d26; /* Couleur principale de votre groupe */
     color: white;
     padding: 10px 20px;
-    border: none;
+    text-decoration: none;
     border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+    margin-top: 15px;
 }
-.application-form button[type="submit"]:hover {
-    background-color: #1e7e34;
+
+.cta-button:hover {
+    background-color: #c83d1a;
+}
+.annonce {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.annonce h2 {
+    color: #e44d26; /* Couleur principale de votre groupe */
+    margin-top: 0;
+}
+
+.annonce p {
+    line-height: 1.6;
+}
+
+.date {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #e44d26; /* Couleur principale de votre groupe */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.cta-button:hover {
+    background-color: #c83d1a;
+}
+.annonce {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.annonce h2 {
+    color: #e44d26; /* Couleur principale de votre groupe */
+    margin-top: 0;
+}
+
+.annonce p {
+    line-height: 1.6;
+}
+
+.date {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #e44d26; /* Couleur principale de votre groupe */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.cta-button:hover {
+    background-color: #c83d1a;
+}
+.annonce {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.annonce h2 {
+    color: #e44d26; /* Couleur principale de votre groupe */
+    margin-top: 0;
+}
+
+.annonce p {
+    line-height: 1.6;
+}
+
+.date {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #e44d26; /* Couleur principale de votre groupe */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.cta-button:hover {
+    background-color: #c83d1a;
+}
+.annonce {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.annonce h2 {
+    color: #e44d26; /* Couleur principale de votre groupe */
+    margin-top: 0;
+}
+
+.annonce p {
+    line-height: 1.6;
+}
+
+.date {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #e44d26; /* Couleur principale de votre groupe */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.cta-button:hover {
+    background-color: #c83d1a;
+}
+.annonce {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.annonce h2 {
+    color: #e44d26; /* Couleur principale de votre groupe */
+    margin-top: 0;
+}
+
+.annonce p {
+    line-height: 1.6;
+}
+
+.date {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #e44d26; /* Couleur principale de votre groupe */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.cta-button:hover {
+    background-color: #c83d1a;
+}
+.annonce {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.annonce h2 {
+    color: #e44d26; /* Couleur principale de votre groupe */
+    margin-top: 0;
+}
+
+.annonce p {
+    line-height: 1.6;
+}
+
+.date {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #e44d26; /* Couleur principale de votre groupe */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.cta-button:hover {
+    background-color: #c83d1a;
 }
