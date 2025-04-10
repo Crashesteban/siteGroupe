@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background-image: url('../image/logo_2.jpg'); /* Remplacez par votre image d'en-tête */
+    background-image: url('SiteAstralDynamics/image/logo_2.jpg'); /* Remplacez par votre image d'en-tête */
     background-size: cover;
     background-position: center;
     color: white;
