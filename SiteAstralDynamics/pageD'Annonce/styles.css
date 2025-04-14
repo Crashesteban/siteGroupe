@@ -35,6 +35,7 @@ body {
 .button a
 {
     color: white;
+    font-size: clamp(16px,5vw,2rem);
 }
 .footer
 {
