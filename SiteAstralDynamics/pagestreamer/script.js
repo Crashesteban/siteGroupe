@@ -1,7 +1,7 @@
 "use strict"
 
 const streamers = [
-    { name: "NekiBursten", image: "../image/Neki.jpg", link: "../pageexterne/pageNeki.html", description: "Description de NekiBursten..." },
+    { name: "Morgane_reaper", image: "../image/Neki.jpg", link: "../pageexterne/pageNeki.html", description: "Description de NekiBursten..." },
     { name: "BlueStarlite", image: "../image/BlueStarlite.jpg", link: "../pageexterne/pageBlue.html", description: "Un démon tueur a gage venant des enfer, qui est partie dans notre monde pour vivre une vie de barman tranquille." },
     { name: "Streamer 3", image: "../image/inconnu.jpg", link: "../pageexterne/pageStreamer3.html", description: "Description du streamer 3..." },
     { name: "Streamer 4", image: "../image/inconnu.jpg", link: "../pageexterne/pageStreamer4.html", description: "Description du streamer 4..." },
