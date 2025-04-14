@@ -1,7 +1,7 @@
 "use strict"
 
 const streamers = [
-    { name: "Morgane_reaper", image: "../image/Neki.jpg", link: "../pageexterne/pageNeki.html", description: "Bienvenue dans mon organisation anti criminelle inter-spaciale, La Star Tenebris! Moi c'est Neki, je suis une Vtubeuse chimère mi dragonne, mi démone et mi chat. Je suis dessinatrice et j'ai un cœur GROS comme ça." },
+    { name: "Morgane_reaper", image: "../image/Neki.jpg", link: "../pageexterne/pageNeki.html", description: "Bienvenue dans mon organisation anti criminelle inter-spaciale, La Star Tenebris! Moi c'est Morgane_reaper, je suis une Vtubeuse chimère mi dragonne, mi démone et mi chat. Je suis dessinatrice et j'ai un cœur GROS comme ça." },
     { name: "BlueStarlite", image: "../image/BlueStarlite.jpg", link: "../pageexterne/pageBlue.html", description: "Un démon tueur a gage venant des enfer, qui est partie dans notre monde pour vivre une vie de barman tranquille." },
     { name: "Streamer 3", image: "../image/inconnu.jpg", link: "../pageexterne/pageStreamer3.html", description: "Description du streamer 3..." },
     { name: "Streamer 4", image: "../image/inconnu.jpg", link: "../pageexterne/pageStreamer4.html", description: "Description du streamer 4..." },
