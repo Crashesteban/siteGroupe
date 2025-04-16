@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astral Dynamics - Recrutement</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="button">
@@ -82,33 +83,32 @@
             <p> Si vous êtes intéressé(e) par l'un de ces rôles et que vous pensez correspondre à nos attentes, n'hésitez pas à nous envoyer votre candidature ! 
                 Veuillez remplir le formulaire ci-dessous en nous fournissant autant de détails que possible sur votre expérience, 
                 vos motivations et ce que vous pouvez apporter à notre équipe.</p>
-
-            <form class="application-form">
-                <label for="nom">Nom :</label>
-                <input type="text" id="nom" name="nom" required>
-
-                <label for="email">Adresse Email :</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="role">Poste Souhaité :</label>
-                <select id="role" name="role" required>
-                    <option value="">-- Sélectionnez un poste --</option>
-                    <option value="streamer">Streamer</option>
-                    <option value="vtuber">VTuber</option>
-                    <option value="staff">Staff (précisez le domaine dans le message)</option>
-                </select>
-
-                <label for="plateformes">Plateformes Utilisées (Twitch, YouTube, etc.) :</label>
-                <input type="text" id="plateformes" name="plateformes">
-
-                <label for="liens">Liens Utiles (chaîne Twitch, profil VTuber, portfolio, etc.) :</label>
-                <input type="text" id="liens" name="liens">
-
-                <label for="message">Votre Message / Motivation :</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <button type="submit">Envoyer ma Candidature</button>
-            </form>
+                <form class="application-form">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required><br><br>
+                
+                    <label for="email">Adresse Email :</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                
+                    <label for="role">Poste Souhaité :</label>
+                    <select id="role" name="role" required>
+                      <option value="">-- Sélectionnez un poste --</option>
+                      <option value="streamer">Streamer</option>
+                      <option value="vtuber">VTuber</option>
+                      <option value="staff">Staff (précisez le domaine dans le message)</option>
+                    </select><br><br>
+                
+                    <label for="plateformes">Plateformes Utilisées (Twitch, YouTube, etc.) :</label>
+                    <input type="text" id="plateformes" name="plateformes"><br><br>
+                
+                    <label for="liens">Liens Utiles (chaîne Twitch, profil VTuber, portfolio, etc.) :</label>
+                    <input type="text" id="liens" name="liens"><br><br>
+                
+                    <label for="message">Votre Message / Motivation :</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                
+                    <button type="submit">Envoyer ma Candidature</button>
+                  </form>               
 
             <p>Nous examinerons attentivement chaque candidature et vous recontacterons dans les plus brefs délais si votre profil correspond à nos besoins.</p>
         </div>
