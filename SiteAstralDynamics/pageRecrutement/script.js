@@ -74,6 +74,7 @@ document.addEventListener('submit', function(event) {
     // Stocke les données mises à jour dans le localStorage
     localStorage.setItem('applications', JSON.stringify(storedData));
     alert('Votre candidature a été enregistrée !');
+    form.submit();
     form.reset(); // Réinitialise le formulaire après l'enregistrement
   } else if (formData.nom === '' || formData.email === '') {
     alert('Veuillez renseigner le nom et l\'adresse e-mail.');
